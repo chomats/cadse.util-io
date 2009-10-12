@@ -1090,14 +1090,27 @@ public class ZipUtil {
 			return;
 		}
 
-		Map set_date = new HashMap();
+		
 
 		if (!directory.exists()) {
 			directory.mkdirs();
 		}
 
-		byte buffer[] = new byte[BUFFER_SIZE];
 		FileInputStream input = new FileInputStream(zipFile);
+		unzip( input, directory);
+
+	}
+
+	/**
+	 * Utility method to unzip a compressed file into a directory hierarchy.
+	 * 
+	 * @throws IOException
+	 * 
+	 */
+	public static void unzip(InputStream input, File directory) throws IOException {
+		
+		Map set_date = new HashMap();
+		byte buffer[] = new byte[BUFFER_SIZE];
 		ZipInputStream zip = new ZipInputStream(new BufferedInputStream(input));
 
 		ZipEntry zipEntry = null;
@@ -1142,6 +1155,5 @@ public class ZipUtil {
 		}
 
 		zip.close();
-
 	}
 }
