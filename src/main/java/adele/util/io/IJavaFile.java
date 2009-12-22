@@ -46,7 +46,7 @@ package adele.util.io;
  *  Interface specification for java files
  *
  * @author    Remy Sanlaville
- * @since     21 février 2003
+ * @since     21 fevrier 2003
  */
 public interface IJavaFile
 {

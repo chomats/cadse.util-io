@@ -55,7 +55,7 @@ import java.util.Random;
  *   Own Library for the manipulation of the tempory directories
  *
  * @author    Remy Sanlaville
- * @since     12 février 2003
+ * @since     12 fevrier 2003
  */
 public class TmpUtil
 {

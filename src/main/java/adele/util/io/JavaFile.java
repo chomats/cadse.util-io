@@ -51,7 +51,7 @@ import java.io.File;
  *  Abstract class model for java files
  *
  * @author    Remy Sanlaville
- * @since     21 février 2003
+ * @since     21 fevrier 2003
  */
 public abstract class JavaFile implements IJavaFile
 {
