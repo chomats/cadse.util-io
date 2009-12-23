@@ -7,7 +7,7 @@ Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Adele/LIG/ Grenoble University, France
 Bundle-Version: 2.3.0.SNAPSHOT
 Build-Jdk: 1.6.0_17
-Bnd-LastModified: 1261565757267
+Bnd-LastModified: 1261575240606
 Bundle-ManifestVersion: 2
 Import-Package: adele.util.io,javax.swing.filechooser
 Bundle-DocURL: http://www-adele.imag.fr/
