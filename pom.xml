@@ -1,0 +1,31 @@
+<project xmlns:pom="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>bundle</packaging>
+    <groupId>fr.imag.adele.cadse</groupId>
+    <artifactId>util.io</artifactId>
+    <name>fr.imag.adele.cadse.util.io</name>
+    <version>2.3.0-SNAPSHOT</version>
+    <parent>
+		<artifactId>fr.imag.adele.cadse.parent</artifactId>
+		<groupId>fr.imag.adele.cadse</groupId>
+		<version>2.3.0-SNAPSHOT</version>
+		<relativePath>../fr.imag.adele.cadse.parent</relativePath>
+	</parent>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Export-Package>adele.util.io</Export-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
+

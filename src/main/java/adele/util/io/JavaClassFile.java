@@ -52,7 +52,7 @@ import java.io.File;
  *  Model for .class java files
  *
  * @author    Remy Sanlaville
- * @since     21 février 2003
+ * @since     21 fevrier 2003
  */
 public class JavaClassFile extends JavaFile implements IJavaClassFile
 {
