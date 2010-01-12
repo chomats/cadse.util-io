@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: fr.imag.adele.cadse.lib.adele.util.io
+Bundle-SymbolicName: fr.imag.adele.cadse.lib.adele.util.io;singleton:=true
+Bundle-Vendor: Adele
+Bundle-Version: 1.0.0.qualifier
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Eclipse-LazyStart: false
+Export-Package: adele.util.io;version="1.0.0"
+Import-Package: adele.util.io;version="1.0.0",
+ javax.swing.filechooser
+Created-By: envsam
+Bundle-Description: Bundle fr.imag.adele.workspace.cadseg.lib.adele.uti
+ l.io
+
