@@ -50,7 +50,7 @@ package adele.util.io;
  *  Interface specification for java files
  *
  * @author    Remy Sanlaville
- * @since     24 février 2003
+ * @since     24 fevrier 2003
  */
 public interface IJavaClassFile extends IJavaFile
 {

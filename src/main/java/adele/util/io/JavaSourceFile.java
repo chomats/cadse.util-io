@@ -50,7 +50,7 @@ package adele.util.io;
  *  Model for source code java files
  *
  * @author    Remy Sanlaville
- * @since     21 février 2003
+ * @since     21 fevrier 2003
  */
 public class JavaSourceFile extends JavaFile
 {
