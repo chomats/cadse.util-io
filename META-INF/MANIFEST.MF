@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Export-Package: adele.util.io;uses:="javax.swing.filechooser"
+Built-By: chomats
+Tool: Bnd-0.0.357
+Bundle-Name: fr.imag.adele.cadse.util.io
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: Adele/LIG/ Grenoble University, France
+Bundle-Version: 2.3.0.SNAPSHOT
+Build-Jdk: 1.6.0_17
+Bundle-ManifestVersion: 2
+Import-Package: adele.util.io,javax.swing.filechooser
+Bundle-SymbolicName: fr.imag.adele.cadse.util.io;singleton:=true
+Bundle-DocURL: http://www-adele.imag.fr/
+
