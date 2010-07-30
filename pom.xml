@@ -13,7 +13,11 @@
 		<version>2.3.0-SNAPSHOT</version>
 		<relativePath>../fr.imag.adele.cadse.parent.osgi</relativePath>
 	</parent>
-    
+        <scm>
+                <connection>scm:hg:ssh://hg@henry/${groupId}.${artifactId}</connection>
+                <developerConnection>scm:hg:ssh://hg@henry/${groupId}.${artifactId}</developerConnection>
+                <url>http://henry:8000/${groupId}.${artifactId}</url>
+        </scm>    
     <build>
         <plugins>
             <plugin>
