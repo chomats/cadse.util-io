@@ -1,4 +1,4 @@
-/* 
+/*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -15,25 +15,9 @@
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
+ *
+ * Copyright (C) 2006-2010 Adele Team/LIG/Grenoble University, France
  */
-/*----------------------------------------------------------------------------\
-| Classe      : JavaFile                                                      |
-| Type        : Model (MVC)                                                   |
-| Etend       :                                                               |
-| Implemente  : IJavaFile                                                     |
-| Description : modele abstrait pour les fichiers de type Java                |
-| Version     : 1.0                                                           |
-|-----------------------------------------------------------------------------|
-| Teste sous  : JDK 1.4                                                       |
-|-----------------------------------------------------------------------------|
-| Auteur      : Remy Sanlaville                                               |
-| Date        : 21/02/2003                                                    |
-|-----------------------------------------------------------------------------|
-| Copyright   : LSR (Adele)                                                   |
-\----------------------------------------------------------------------------*/
-/*------------------------------\
-| Definition du nom du package  |
-\------------------------------*/
 package adele.util.io;
 
 /*------------------------------\
